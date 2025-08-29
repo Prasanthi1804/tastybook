@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TastyBook</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-image: url("bg.jpeg"); /* Use relative path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      color: white;
+      font-size: 8vw;
+      font-family: Arial, sans-serif;
+      text-shadow: 2px 2px 8px black;
+      margin-bottom: 30px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      padding: 8px 16px;
+      border: 2px solid white;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: white;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h1>TastyBook</h1>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contactus.html">Contact Us</a>
+  </nav>
+</body>
+</html>
